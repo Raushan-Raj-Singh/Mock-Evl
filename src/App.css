@@ -1,0 +1,36 @@
+.Main{
+    position: absolute;
+    left: 27%;
+    top: 18%;
+    padding: 60px;
+}
+
+.light .Main {
+    background-color: #ffffff; /* Light theme background color */
+    color: #000000; /* Light theme text color */
+  }
+  
+  .dark .Main {
+    background-color: #333333; /* Dark theme background color */
+    color: #ffffff; /* Dark theme text color */
+  }
+.url{
+    background-image: url("https://store-images.s-microsoft.com/image/apps.23032.13608622719434797.30372fd8-b4bd-41c0-beea-1c2a61e087c1.a8347bb5-9305-48e8-b668-08df54c5a91a");
+    background-size: contain;
+    background-repeat:round;
+    /* background-size: 100% 100%; */
+}
+.theme-switcher{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+.theme-switcher.dark {
+    animation: moveLeft 0.3s ease; 
+  }
+.moon-icon {
+    font-size: 30px; 
+    color: #ffffff;
+}
+  

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    background-color:#385db4;
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; */
+
+}
